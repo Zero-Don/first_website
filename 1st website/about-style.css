@@ -1,0 +1,97 @@
+@import
+
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(images/greenry-img.jpg);
+    background-size: contain;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.title h1{
+    color: #A2DAAC;
+}
+.social{
+    margin: 20px 5px;
+}
+.content-section{
+    float:left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 85%;
+    height: auto;
+}
+.buttons button{
+    margin: 60px 2px;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    color: black;
+    background: gold;
+    border: 1px solid gold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.buttons button:hover{
+    background-color: #B4A63E;
+    
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h2{
+    margin-top: 20px;
+    color: #ECC62C;
+    font-size: 21px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 30px;
+}
+.content-section .content.button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+}
+.content-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+        
+}
+}
